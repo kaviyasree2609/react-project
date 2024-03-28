@@ -1,0 +1,22 @@
+{
+  "user": [
+    {
+      "email": "22cse108@skcet.ac.in",
+      "name": "monica",
+      "password": "moni",
+      "id": 1
+    },
+    {
+      "email": "22cse093@skcet.ac.in",
+      "name": "Nikila",
+      "password": "012345",
+      "id": 2
+    },
+    {
+      "email": "22cse093@skcet.ac.in",
+      "name": "krithika",
+      "password": "2124",
+      "id": 3
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+body{
+    margin: 0; 
+    background: #B993D6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8CA6DB, #B993D6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8CA6DB, #B993D6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height:900px;    
+}
+.nav{
+   
+    background: #41295a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F0743, #41295a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F0743, #41295a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: rem;
+    padding : 0 2rem;
+    height: 4rem;
+    
+}
+.site_title{
+    font-size: 5rem;
+    justify-content: center;
+    align-items: left;
+}
+.nav ul {
+    padding: 0;
+    margin: 4 px;
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+.nav a{
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: .25rem;
+}
+.nav a:hover{
+    font-size: 20px;
+    font-weight: bold;
+    transition-duration: 2s;
+
+}
+.fx{
+    content: url('https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRFgODjJLQ8OpAALiBTSIHfupFAy7Lpq5RCwN960WQ9-IIXEznn');
+    display: block;
+    margin-left: 650px;
+    margin-top: 50px;
+}
+.fx1{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    font-size:40pt;
+    
+    
+}
+.fx2
+{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    font-size:30pt;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.fx3
+{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    width:100%;
+    height:50px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  
+}
+.fx3 button
+{
+
+width:150px;
+height: 35px;
+border-radius: 10px;
+background: #41295a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F0743, #41295a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F0743, #41295a);
+
+}
+.fx3 button:hover
+{
+    background-color: white;
+
+}
